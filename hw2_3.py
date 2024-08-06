@@ -2,7 +2,8 @@
 # The function should return the arithmetic mean of the three arguments.
 # mean(1, 2, 3) should return 2.0
 def mean(a, b, c):
-    return (a + b + c) / 3
+    pass # replace this line with your code
+
 
 if __name__ == "__main__":
     a = int(input("Enter a number: "))
