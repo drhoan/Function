@@ -1,10 +1,11 @@
-# City Names: Write a function called city_country() that takes in the name of a capital and its country.
-# The function should return a string formatted like below if parameter capital is Santiago and parameter country is Chile
-# "Santiago is the capital of Chile"
-def city_country(capital, country):
-    return f'{capital} is the capital of {country}'
+# Please write a function named mean, which takes three integer arguments.
+# The function should return the arithmetic mean of the three arguments.
+# mean(1, 2, 3) should return 2.0
+def mean(a, b, c):
+    return (a + b + c) / 3
 
 if __name__ == "__main__":
-    capital = input("Enter a capital: ")
-    country = input("Enter a country: ")
-    print(city_country(capital, country))
+    a = int(input("Enter a number: "))
+    b = int(input("Enter a number: "))
+    c = int(input("Enter a number: "))
+    print(f'The arithmetic mean of {a}, {b}, and {c} is {mean(a, b, c)}')
